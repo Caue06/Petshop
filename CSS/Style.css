@@ -1,0 +1,92 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: 0;
+    }
+
+    header {
+        display: flex;
+        background-color: cadetblue;
+        justify-content: space-between;
+        align-items: center;
+        font-family: cursive;
+    }
+
+    .titulo {
+        color: white;
+        text-shadow: 2px 2px 1px black;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+        background-color: white;
+        border: 1px solid black; 
+        border-radius: 10%; 
+    }
+
+    a:hover { /*:hover ativa somente quando o mouse estiver em cima*/
+        color:black;
+        background-color: rgb(228, 228, 228);
+        border: 1px solid black;
+    }
+    
+    ul {
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+    }
+
+    li {
+        margin: 5px;
+    }
+     
+    table, td, th {
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+
+    th {
+        width: 200px;
+        height: 50px;
+    }
+
+    td {
+        text-align: center;
+    }
+
+    .imagepets {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 5px;
+    }
+    
+    .titulopets {
+        text-align: center;
+    }
+
+    .produtos {
+        text-align: center;
+    }
+
+    .formulario{
+        display: flex;
+        justify-content: center;
+    }
+
+    h2{
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .loja {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer {
+        text-align: center;
+    }
